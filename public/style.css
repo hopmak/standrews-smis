@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Set minimum height to fill the viewport */
+}
+.col-md-12{
+    flex-direction: column;
+}
+
+header h1 img {
+    width: 50px; /* Set the desired width */
+    height: auto; /* Maintain the aspect ratio */
+}
+header h1{
+  font-weight:bold;
+}
+nav {
+    text-align: center;
+
+}
+.sidebar {
+margin: 0;
+padding: 0;
+width: 150px;
+background-color: #e9e5e5;
+position: fixed;
+height: 100%;
+overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+display: block;
+color: black;
+padding: 16px;
+text-decoration: none;
+}
+
+.sidebar a:hover {
+    background-color: #777676;
+}
+
+.footer {
+    /* background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px; */
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #e9e7e7;
+    color: black;
+    text-align: center;
+}
+.nav{
+    background-color: #333;
+}
+main {
+    padding: 20px;
+}
+
+.container-fluid{
+    /* display: flex; */
+    flex-direction: column;
+    /* min-height: 100vh; Set a minimum height to fill the viewport */
+    width: 100%;
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding as needed */
+    padding-bottom:5px;
+    box-sizing: border-box; /* Include padding and border in the total width */
+}
+.card{
+    position:relative;
+    margin-left:55px;
+    margin-top:10px;
+    max-height: fit-content;
+
+}
